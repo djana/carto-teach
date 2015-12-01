@@ -1,0 +1,37 @@
+html, body{
+	height: 100%;
+	margin:0;
+	padding:0;
+	font-family:"Oswald", sans-serif;
+}
+
+header{
+	vertical-align:middle;
+	font-size: 34px;
+	text-align:center;
+	line-height: 120px;
+	border-bottom: 1px solid black;
+}
+
+#content{
+	max-width:900px;
+	margin:0 auto;
+}
+
+.section-title{
+	padding-top:40px;
+	padding-bottom:15px;
+	font-size:24px;
+}
+
+.section-element{
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	padding-top:6px;
+}
+a {
+	text-decoration: none;
+	color: #724980;
+	font-family:"Oswald", sans-serif;
+	font-size:18px;
+}
