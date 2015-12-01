@@ -10,25 +10,23 @@
 	<header>Good examples of maps/visualizations/design</header>
 	<div id="content"></div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="list.js"></script>
 	<script type="text/javascript">
 	parent = $("#content");
 	var sem;
 	$(document).ready(function() {
-		$.getJSON("list.json", function(data){
-			console.log(data);
-			for (key in data){
-				sectionTitle = $("<div class = 'section-title'>" + key + "</div>")
-				parent.append(sectionTitle);
-				sectionContent = $("<div class='section-content'>");
-				for (index in data[key]){
-					elem = data[key][index];
-					comment = elem.comment? " - " + elem.comment : ""
-					sectionElement = $("<div class='section-element'><a target='_blank' href= '" + elem.url + "'>" + elem.title + "</a>"+ comment + "</div>");
-					sectionContent.append(sectionElement);
-				}
-				parent.append(sectionContent);
+		for (key in list){
+			sectionTitle = $("<div class = 'section-title'>" + key + "</div>")
+			parent.append(sectionTitle);
+			sectionContent = $("<div class='section-content'>");
+			for (index in list[key]){
+				elem = list[key][index];
+				comment = elem.comment? " - " + elem.comment : ""
+				sectionElement = $("<div class='section-element'><a target='_blank' href= '" + elem.url + "'>" + elem.title + "</a>"+ comment + "</div>");
+				sectionContent.append(sectionElement);
 			}
-		})
+			parent.append(sectionContent);
+		}
 	});
 	</script>
 </body>
