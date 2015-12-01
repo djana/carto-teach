@@ -5,4 +5,4 @@ Repo created to help students in Carto III with designing Basemaps for the Web o
 Add examples to the list.js file.
 
 ### Visualize list
-Use this link: https://htmlpreview.github.io/?https://github.com/RalucaNicola/carto-teach/blob/master/examples/index.html
+Use this link: https://cdn.rawgit.com/RalucaNicola/carto-teach/master/examples/index.html
