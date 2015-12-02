@@ -15,7 +15,7 @@ var list = {
 		"comment": "Mapbox basemap, customized for Pinterest."
 	},
 	{
-		"url": "http://www.basemap.at/application/index.html#{\"center\":[1821704.5858635344,6141686.558828305],\"zoom\":14,\"rotation\":0,\"layers\":\"00100000000\"}"
+		"url": "http://www.basemap.at/application/index.html#{\"center\":[1821704.5858635344,6141686.558828305],\"zoom\":14,\"rotation\":0,\"layers\":\"00100000000\"}",
 		"title": "basemap.at"
 	}
 	],
