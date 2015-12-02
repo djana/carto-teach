@@ -13,6 +13,10 @@ var list = {
 		"url": "http://www.arcgis.com/home/webmap/viewer.html?webmap=a819845af2344512b666270e610981a6",
 		"title": "Pinterest Basemap",
 		"comment": "Mapbox basemap, customized for Pinterest."
+	},
+	{
+		"url": "http://www.basemap.at/application/index.html#{\"center\":[1821704.5858635344,6141686.558828305],\"zoom\":14,\"rotation\":0,\"layers\":\"00100000000\"}"
+		"title": "basemap.at"
 	}
 	],
 	"GUI Design":[
