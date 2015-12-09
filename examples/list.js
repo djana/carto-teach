@@ -26,7 +26,7 @@ var list = {
 	},
 	{
 		"title": "Swisstopo Geoportal",
-		"url": "http://www.geo.admin.ch/"
+		"url": "http://www.map.geo.admin.ch/"
 	}
 	]
 }
