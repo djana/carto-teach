@@ -17,6 +17,11 @@ var list = {
 	{
 		"url": "http://www.basemap.at/application/index.html#{\"center\":[1821704.5858635344,6141686.558828305],\"zoom\":14,\"rotation\":0,\"layers\":\"00100000000\"}",
 		"title": "basemap.at"
+	},
+	{
+	    "url":"https://napavintners.com/maps/",
+	    "title":"Mappa Valley Vintners",
+	    "comment": "Offers a simple basemap, yet specifically designed to match the topic. The simple, yet elegenat GUI is also worth a look."
 	}
 	],
 	"GUI Design":[
@@ -27,6 +32,11 @@ var list = {
 	{
 		"title": "Swisstopo Geoportal",
 		"url": "http://www.map.geo.admin.ch/"
+	},
+	{
+	    "title":"Climate Commons",
+	    "url":"http://climatecommons.earthjournalism.net/map/",
+	    "comment": "Clean and elegant GUI that support the map visualization"
 	}
 	]
 }
