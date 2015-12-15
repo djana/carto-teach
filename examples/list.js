@@ -22,6 +22,16 @@ var list = {
 	    "url":"https://napavintners.com/maps/",
 	    "title":"Mappa Valley Vintners",
 	    "comment": "Offers a simple basemap, yet specifically designed to match the topic. The simple, yet elegenat GUI is also worth a look."
+	},
+	{
+	    "url": "http://datadesk.github.io/osm-quiet-la/",
+	    "title":"Quiet L.A.",
+	    "comment":"a muted, open-source base layer about Southern Ccalifornia"
+	},
+	{
+	    "url":"http://www.norgeskart.no/geoportal/#10/200479/6892807",
+	    "title":"Geonorge",
+	    "comment":"simple and pastel tones for the basemap of this Norwegian geoportal."
 	}
 	],
 	"GUI Design":[
